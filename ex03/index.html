@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo"> Entendendo DOM</h1>
+    <p>vamos aprender coisa novaaaaaaa</p>
+    <p>DOM = Document Object Model</p>
+    <div id="CliqueAqui" onclick="corFundo()">Clique Aqui!</div>
+
+    <script>
+        document.getElementById("titulo").style.color = "gold"
+
+        var titulo = document.querySelector("#titulo")
+        titulo.style.background = ("green")
+
+        var div = doucment.querySelector("#CliqueAqui")
+
+        function corFundo() {
+            div.style.background = "green"
+        }
+
+    </script>
+</body>
+</html>
